@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "JohnDoe@example.com",
+        "password": "123456",
+        "profileUrl": "https://i.pravatar.cc/150?img=14"
+    }
+]

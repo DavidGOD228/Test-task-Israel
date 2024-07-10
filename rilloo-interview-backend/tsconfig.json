@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2020"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}

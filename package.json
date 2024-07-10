@@ -1,0 +1,14 @@
+{
+  "name": "rilloo-interview",
+  "version": "1.0.0",
+  "description": "Frontend developer interview for Rilloo",
+  "scripts": {
+    "prep": "npm install && cd rilloo-interview-backend && npm install && cd ../rilloo-interview-frontend && npm install",
+    "start": "concurrently \"cd rilloo-interview-backend && npm start\" \"cd rilloo-interview-frontend && npm start\""
+  },
+  "author": "Lior Zana",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
